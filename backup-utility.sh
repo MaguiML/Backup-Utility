@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Directorio de origen que deseas respaldar
-origen="/ruta/al/directorio/a/respaldar"
+# Directorio de origen que deseas respaldar: aqui será el tmp
+origen="/tmp"
 
 # Directorio de destino donde se almacenarán las copias de seguridad
-destino="/ruta/al/directorio/de/respaldo"
+destino="/home/kali/Documents/Respaldos"
 
 # Nombre del archivo de copia de seguridad con marca de tiempo
 archivo_destino="$destino/respaldo_$(date +\%Y\%m\%d_\%H\%M\%S).tar.gz"
