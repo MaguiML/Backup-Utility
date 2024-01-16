@@ -41,4 +41,4 @@ Copy code
 0 2 * * * /path/to/backup/script.sh
 This will run the script every day at 2:00 AM. Adjust the values to suit your specific needs.
 Remember to customize the paths and scheduling according to your specific requirements and setup. This script is a basic example, and you can customize it to fit your environment and needs.
-
+:)
